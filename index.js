@@ -1,7 +1,7 @@
-/* eslint-disable max-classes-per-file */
 import Book from './modules/book.js';
 import Storage from './modules/storage.js';
 import BooksToDom from './modules/dom.js';
+import Time from './modules/Time.js';
 
 const form = document.querySelector('form');
 const navList = document.querySelector('.nav-list');
@@ -12,6 +12,7 @@ const list = document.querySelector('.list');
 const contact = document.querySelector('.contact');
 
 // to display the time
+Time.setTime();
 document.querySelector('time').innerHTML = new Date().toLocaleString();
 
 // listing books link

@@ -1,3 +1,5 @@
+const empty = document.querySelector('.empty');
+
 export default class Storage {
   static BooksFromStorage() {
     let books;

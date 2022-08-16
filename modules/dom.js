@@ -13,11 +13,11 @@ export default class BooksToDom {
     const tableRow = document.createElement('tr');
 
     tableRow.innerHTML = `
-    <td>${`"${book.title}"`}</td>
-    <td>by</td>
-    <td>${book.author}</td>
-    <td><a href="#" class='rm-button'>Remove</a></td>
-    `;
+      <td>${`"${book.title}"`}</td>
+      <td>by</td>
+      <td>${book.author}</td>
+      <td><a href="#" class='rm-button'>Remove</a></td>
+      `;
     tbody.appendChild(tableRow);
   }
 
