@@ -1,3 +1,5 @@
+import Storage from './storage.js';
+
 export default class BooksToDom {
   static displayBooksInDom() {
     Storage.checkEmptyList();
